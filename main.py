@@ -15,11 +15,11 @@ def main():
     # email = config["user_email"]
     # api_key = config["API_token"]
 
-    jira_url =  "https://rently.atlassian.net" 
-    issue_key = "GEMS-2270"
-    email = "manojkumar.s@rently.com"
-    api_key = "ATATT3xFfGF0_F1G0BqnbK1woC3dDUJVig9tRXjhBYFqz3-OiwdgTm9puhSiYSsg4N9c-y66e2S94BD7cjAt6tLyvn3jNop-62vGExgkcPvhGw1K2BHtTTNiQ5C_cxvejV3suFvpOx63n1SWjGpKEd0Ml-0zz9FBAKxUpVRC5Iy6yvGL-U9vRQE=E364F9D8"  
-    summary, description = get_jira_story(issue_key, jira_url, email, api_key)
+    # jira_url =  "https://rently.atlassian.net" 
+    # issue_key = "GEMS-2270"
+    # email = "manojkumar.s@rently.com"
+    # api_key = "ATATT3xFfGF0_F1G0BqnbK1woC3dDUJVig9tRXjhBYFqz3-OiwdgTm9puhSiYSsg4N9c-y66e2S94BD7cjAt6tLyvn3jNop-62vGExgkcPvhGw1K2BHtTTNiQ5C_cxvejV3suFvpOx63n1SWjGpKEd0Ml-0zz9FBAKxUpVRC5Iy6yvGL-U9vRQE=E364F9D8"  
+    # summary, description = get_jira_story(issue_key, jira_url, email, api_key)
     print("Summary:", summary)
     print("Description:", description)
 
